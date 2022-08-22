@@ -1,3 +1,11 @@
 /* ========== ROOT VARIABLES ========== */
 :root {
+  --color-brand--1: #fafdcb;
+  --color-brand--2: #28c3d4;
+
+  --color-dark--1: #0f3057;
+  --color-dark--2: #00587a;
+  --color-light--1: #aaa;
+  --color-light--2: #e7e7de;
+  --color-light--3: rgb(174, 231, 232);
 }
