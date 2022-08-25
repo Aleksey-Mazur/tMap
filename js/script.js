@@ -1,5 +1,7 @@
 'use strict';
 
+// ================================================
+
 class Workout {
   date = new Date();
   id = (Date.now() + '').slice(-10);
@@ -20,6 +22,8 @@ class Workout {
   }
 }
 
+// ================================================
+
 class Running extends Workout {
   type = 'running';
 
@@ -36,6 +40,8 @@ class Running extends Workout {
     return this.pace;
   }
 }
+
+// ================================================
 
 class Cycling extends Workout {
   type = 'cycling';
@@ -62,6 +68,8 @@ const inputDistance = document.querySelector('.form__input--distance');
 const inputDuration = document.querySelector('.form__input--duration');
 const inputCadence = document.querySelector('.form__input--cadence');
 const inputElevation = document.querySelector('.form__input--elevation');
+
+// ================================================
 
 class App {
   #map;
